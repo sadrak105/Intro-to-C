@@ -10,6 +10,21 @@
 */
 int fizzbuzz(int n)
 {
+    for (n = 0; n<=100; n++) {
+        if (n % 3 == 0) {
+            printf("Fizz %d\n", n);
+        }
+        else if (n % 5 == 0) {
+            printf("Buzz %d\n", n);
+        }
+        else if (n % 3 == 0 && n % 5 == 0) {
+            printf("FizzBuzz %d\n", n);
+        }
+        else {
+            printf("%d\n", n);
+        }
+    }
+    return 0;
 
 }
 
