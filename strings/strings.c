@@ -9,7 +9,7 @@
 */
 int string_length(char s[])
 {
-
+    
 }
 
 /*
@@ -20,7 +20,7 @@ int string_length(char s[])
 */
 char *reverse_string(char rv[], char s[])
 {
-
+    
 }
 
 #ifndef TESTING
